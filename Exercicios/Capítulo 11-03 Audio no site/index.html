@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+</head>
+<body>
+
+    <h1>Imagem dinamica</h1>
+    <p>Tente abir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="Img/imgP.png" type="image/png">
+       <source media="(max-width: 1050px )" srcset="Img/imgM.png" type="image/png">
+        <img src="Img/imgG.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/MeneatelasPompis-JovenesViejos.mp3" type="audio/mpeg">
+        <source src="midia/MeneatelasPompis-JovenesViejos.ogg" type="audio/ogg">
+        <source src="midia/MeneatelasPompis-JovenesViejos.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o  audio.
+        <a href="midia/MeneatelasPompis-JovenesViejos.mp3">Click aqui para baixar o arquivo</a></p>
+    </audio>
+    
+</body>
+</html>
