@@ -77,4 +77,131 @@ O primeiro módulo do curso de **HTML e CSS** do professor **Gustavo Guanabara**
 <h2>Seção 2</h2>
 <h3>Subseção 2.1</h3>
 ```
-  
+### Capítulo 8 Aula 1 – Semântica na HTML5 é Importante
+
+- **Descrição:** A semântica no HTML5 utiliza tags que têm significado específico, ajudando a estruturar o conteúdo de maneira mais clara e acessível. Utilizar as tags semânticas corretas melhora a SEO e a experiência do usuário.
+
+- **Regras principais:**
+  - **`<header>`**: Define a área de cabeçalho de um documento ou seção.
+  - **`<nav>`**: Define uma seção de navegação com links.
+  - **`<main>`**: Define o conteúdo principal da página.
+  - **`<section>`**: Define uma seção genérica no documento.
+  - **`<article>`**: Define um conteúdo independente e reutilizável.
+  - **`<footer>`**: Define o rodapé do documento ou seção.
+
+**Exemplo:**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Semântica</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Início</h2>
+            <p>Conteúdo principal da página.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Informações sobre o site.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</body>
+</html>
+```
+### Capítulo 8 Aula 2 – Negrito e Itálico do Jeito Certo
+
+- **Descrição:** As tags `<strong>` e `<em>` são recomendadas para aplicar negrito e itálico, respectivamente, pois fornecem significado semântico ao texto, melhorando a acessibilidade e a SEO.
+
+- **Regras principais:**
+  - **`<strong>`**: Aplica negrito e indica que o texto é de maior importância.
+  - **`<em>`**: Aplica itálico e indica que o texto tem ênfase.
+
+**Exemplo:**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negrito e Itálico</title>
+</head>
+<body>
+    <p>O texto em <strong>negrito</strong> é importante para enfatizar informações, enquanto o texto em <em>itálico</em> pode ser usado para destacar citações ou palavras estrangeiras.</p>
+</body>
+</html>
+```
+### Capítulo 8 Aula 3 – Formatações Adicionais em HTML
+
+- **Descrição:** HTML5 oferece tags adicionais para formatação de texto, como subscript e superscript, que são úteis para representar informações científicas ou matemáticas.
+
+- **Regras principais:**
+  - **`<sub>`**: Define texto como subíndice.
+  - **`<sup>`**: Define texto como superíndice.
+
+**Exemplo:**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações Adicionais</title>
+</head>
+<body>
+    <p>A fórmula da água é H<sub>2</sub>O, onde o <sub>2</sub> indica o número de átomos de hidrogênio.</p>
+    <p>A equação para a área de um círculo é A = πr<sup>2</sup>, onde <sup>2</sup> é o expoente.</p>
+</body>
+</html>
+```
+### Capítulo 8 Aula 4 – Citações e Códigos
+
+- **Descrição:** Utilizar as tags `<blockquote>` e `<code>` permite representar citações e trechos de código de maneira adequada e semântica, facilitando a leitura e compreensão do conteúdo.
+
+- **Regras principais:**
+  - **`<blockquote>`**: Define uma citação longa ou um bloco de citação.
+  - **`<code>`**: Define um trecho de código em linha.
+  - **`<pre>`**: Mantém o formato do texto como espaços e quebras de linha, ideal para código.
+
+**Exemplo:**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <blockquote>
+        <p>"O HTML é a espinha dorsal da web moderna."</p>
+        <footer>- Autor Desconhecido</footer>
+    </blockquote>
+    <pre><code>
+function helloWorld() {
+    console.log('Olá, mundo!');
+}
+    </code></pre>
+</body>
+</html>
+```
