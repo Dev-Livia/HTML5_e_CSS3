@@ -1,0 +1,61 @@
+
+@font-face{
+    font-family: 'idroid';
+    src: url('idroid.eot'); /* IE9 Compat Modes */
+    src: url('idroid.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('idroid.woff2') format('woff2'), /* Modern browsers */
+         url('idroid.woff') format('woff'),  /* Older browsers */
+         url('idroid.ttf') format('truetype'), /* Older browsers */
+         url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(37, 117, 44, 0.596);
+}
+header{
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    background-image: linear-gradient(to top,rgb(19, 78, 27),rgb(30, 112, 41),rgb(52, 180, 69));
+    box-shadow: 5px 5px 5px black;
+}
+main{
+    width: 600px;
+    padding-inline: 60px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+}
+h1{
+    font-size: large;
+    color: white;
+}h1#font{
+    font-family: 'idroid';
+    
+}
+p{
+    font-size: medium;
+    color: white;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(253, 0, 0);
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(5, 3, 3);
+}
+p#artc{
+    color: black;
+}
