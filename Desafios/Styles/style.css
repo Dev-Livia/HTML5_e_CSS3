@@ -10,6 +10,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(37, 117, 44, 0.596);
@@ -18,13 +19,13 @@ header{
     text-align: center;
     width: auto;
     padding: 10px;
-    margin: auto;
+    margin: justify;
     border-radius: 20px;
     background-image: linear-gradient(to top,rgb(19, 78, 27),rgb(30, 112, 41),rgb(52, 180, 69));
     box-shadow: 5px 5px 5px black;
 }
 main{
-    width: 600px;
+    width: 750px;
     padding-inline: 60px;
     margin: auto;
     background-color: white;
@@ -33,13 +34,16 @@ main{
 h1{
     font-size: large;
     color: white;
-}h1#font{
+}
+h1#font{
     font-family: 'idroid';
+    color: black;
     
 }
-p{
+p#font{
+    font-family: 'idroid';
     font-size: medium;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 nav{
     text-align: left;
@@ -56,6 +60,15 @@ a:active{
 a:visited{
     color: rgb(5, 3, 3);
 }
-p#artc{
-    color: black;
+a#mark{
+    color: green;
+}
+a#mark:visited{
+    color: blue;
+}
+a#mark:active{
+    color: rgb(255, 0, 0);
+}
+img#img{
+    padding-left: 30%;
 }
