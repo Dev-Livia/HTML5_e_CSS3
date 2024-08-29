@@ -19,24 +19,28 @@ header{
     text-align: center;
     width: auto;
     padding: 10px;
-    border-radius: 20px;
-    background-image: linear-gradient(to top,rgb(19, 78, 27),rgb(30, 112, 41),rgb(52, 180, 69));
+    border-radius: 0px;
+    background-image: linear-gradient(to top,rgb(41, 94, 48),rgb(64, 185, 80),rgb(109, 223, 124));
     box-shadow: 5px 5px 5px black;
 }
 main{
     width: 750px;
     padding-inline: 60px;
+    border-radius: 10px;
     margin: auto;
     background-color: white;
     box-shadow: 5px 5px 5px black;
 }
-h1{
-    font-size: large;
-    color: white;
+h1#font_cab{
+    font-family: 'idroid';
+    margin: 10px;
+    color: black;
 }
 h1#font{
     font-family: 'idroid';
+    padding-top: 10px;
     color: black;
+    
     
 }
 p#font{
@@ -75,7 +79,7 @@ video#video{
     padding-left: 40%;
 }
 p#aprender{
-    background-color:rgb(165, 253, 222) ;
+    background-image: linear-gradient(to left,rgb(0, 255, 34),rgb(37, 182, 56),rgba(37, 202, 59, 0.774));
     padding: 5px;
     border-radius: 10px ;
     box-shadow: 5px 5px 5px;
@@ -88,25 +92,27 @@ p#aprender{
     margin-bottom: 20px;
     border-radius: 5px;
 }
-
 .lista-duas-colunas {
     display: flex;
     justify-content: space-between;
 }
-
 .lista-duas-colunas ul {
     list-style-type: none; /* Remove o marcador padrão */
     padding: 0;
     margin: 0;
 }
-
 .lista-duas-colunas ul li {
     margin-bottom: 10px; /* Adiciona espaço entre os itens */
 }
-
 .lista-duas-colunas ul li::before {
     content: "✔️"; /* Adiciona um ícone de marca de verificação antes de cada item */
     margin-right: 10px;
     color: #00a000;
     font-size: 1.1em; /* Ajusta o tamanho do ícone */
+}
+footer{
+    font-family: 'idroid';
+    text-align: center;
+    box-shadow:  5px 5px 5px 5px rgb(124, 255, 222);
+    border-radius: 10px;
 }
