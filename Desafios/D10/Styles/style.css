@@ -29,11 +29,12 @@ main{
     margin: auto;
     background-color: white;
     box-shadow: 5px 5px 5px black;
+    padding-bottom: 5px;
 }
 h1#font_cab{
     font-family: 'idroid';
     margin: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 h1#font{
     font-family: 'idroid';
@@ -112,6 +113,10 @@ p#aprender{
 footer{
     font-family: 'idroid';
     text-align: center;
-    box-shadow:  5px 5px 5px 5px rgb(124, 255, 222);
+    box-shadow:  5px 5px 5px 5px rgb(41, 118, 55);
     border-radius: 10px;
+    margin-top: 10px;
+}
+iframe#video{
+    padding-left: 15%;
 }
