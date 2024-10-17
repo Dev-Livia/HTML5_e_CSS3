@@ -10,6 +10,10 @@
     font-weight: normal;
     font-style: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(37, 117, 44, 0.596);
@@ -24,12 +28,16 @@ header{
 }
 main{
     width: 750px;
-    padding-inline: 60px;
+    padding: 60px;
+    padding-top: 15px;
     border-radius: 10px;
-    margin: auto;
     background-color: white;
     box-shadow: 5px 5px 5px black;
-    padding-bottom: 5px;
+    
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
 }
 h1#font_cab{
     font-family: 'idroid';
@@ -51,9 +59,9 @@ p#font{
 nav{
     text-align: left;
     padding: 10px;
+    
 }
 nav > a{
-    color: white;
     text-decoration: none;
 }
 a:active{
@@ -119,4 +127,7 @@ footer{
 }
 iframe#video{
     padding-left: 15%;
+}
+p#p{
+    color: #e0f3e0;
 }
